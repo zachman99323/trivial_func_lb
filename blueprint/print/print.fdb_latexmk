@@ -1,11 +1,13 @@
 # Fdb version 4
-["pdflatex"] 1719325090.90968 "print.tex" "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.pdf" "print" 1719325091.58878 0
-  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.aux" 1719325091.51967 256 18c86092d61101725951fb0b59834407 "pdflatex"
-  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.out" 1719325091.52002 65 e58656315035b80b770f5cc963cebd18 "pdflatex"
+["pdflatex"] 1719329222.2036 "print.tex" "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.pdf" "print" 1719329222.97491 0
+  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.aux" 1719329222.89172 306 5d35be25679666b326875a88f10dae13 "pdflatex"
+  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.out" 1719329222.8922 65 e58656315035b80b770f5cc963cebd18 "pdflatex"
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
+  "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam7.tfm" 1246382020 928 2dc8d444221b7a635bb58038579b861a ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm10.tfm" 1246382020 908 2921f8a10601f252058503cc6570e581 ""
+  "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm5.tfm" 1246382020 940 75ac932a52f80982a9f8ea75d03a34cf ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msbm7.tfm" 1246382020 940 228d6584342e91276bf566bcf9716b83 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmmi12.tfm" 1136768653 1524 4414a8315f39513458b80dfc63bff03a ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/cm/cmmi6.tfm" 1136768653 1512 f21f83efb36853c0b70002322c1ab3ad ""
@@ -81,10 +83,10 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/xetex/xelatex.fmt" 1719191501 10028129 e103683e067e6ac72009decd56f0db91 ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "content.tex" 1719325081.69543 385 75f4005cd4df089fde05adf1ea53ec8d ""
-  "macros/common.tex" 1719319989.08219 142 10e8f81f8b8dcf47997f6d1d7aa55e98 ""
-  "macros/print.tex" 1719319989.08335 1101 87627b2ec24fef68edc71c13f43f7bab ""
-  "print.tex" 1719319989.08709 1125 333233dd3e9da7be246844198280778b ""
+  "content.tex" 1719329210.22466 1741 dfd1b3c9dc85cc5e4b743066b927cc89 ""
+  "macros/common.tex" 1719328562.09795 2228 cbea12bcb12518e52c9fc54dd7fe81bd ""
+  "macros/print.tex" 1719328452.93313 1428 9d66f522efeba2f0b0389db40230a368 ""
+  "print.tex" 1719328298.82237 1134 a0fc7409fd1bfd0f9387111cf55e5284 ""
   (generated)
   "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.aux"
   "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.log"

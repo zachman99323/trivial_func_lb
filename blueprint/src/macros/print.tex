@@ -9,13 +9,21 @@
 % sense only for the web version, such as dependency graph
 % macros.
 
-
 % Dummy macros that make sense only for web version.
 \newcommand{\lean}[1]{}
 \newcommand{\discussion}[1]{}
 \newcommand{\leanok}{}
 \newcommand{\mathlibok}{}
 \newcommand{\notready}{}
+
+\newtheorem{theorem}{Theorem}[chapter]
+\newtheorem{definition}[theorem]{Definition}
+\newtheorem{proposition}[theorem]{Proposition}
+\newtheorem{lemma}[theorem]{Lemma}
+\newtheorem{sublemma}[theorem]{Sub-lemma}
+\newtheorem{corollary}[theorem]{Corollary}
+\newtheorem{remark}[theorem]{Remark}
+\newtheorem{example}[theorem]{Example}
 % Make sure that arguments of \uses and \proves are real labels, by using invisible refs:
 % latex prints a warning if the label is not defined, but nothing is shown in the pdf file.
 % It uses LaTeX3 programming, this is why we use the expl3 package.
