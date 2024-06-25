@@ -8,9 +8,7 @@
 
 \section{Main}
 
-\begin{lemma}
-\label{small_lemma}
-\lean{small_lemma_about_sets}
+\begin{lemma} \label{small_lemma}
 \leanok
 
 Let $Y$ be a set and $x \in Y$ some point in $Y$. Let $C \sub Y$ be a non-empty set satisfying $C \ne {x}$. Then there is some $y \in Y$ such that $y \ne x$ and $y \in C$.
@@ -34,6 +32,26 @@ To show $\{x\} \subseteq C$, it suffices to show $x \in C$, but we know this alr
 $C \subseteq \{x\}$, we take a $y \in C$, and by assumption, since $y \in C$, we know $y = x$
 and hence $y \in \{x\}$.
 \end{proof}
+
+
+\vsss
+
+\begin{proposition} \label{UGinF}
+\leanok
+\uses{small_lemma}
+Let $\mc{F}$ be a finite union-closed family of sets and $\mc{G} \sub \mc{F}$ a non-empty sub-family. Then , $\bigcup \mc{G} \in \mc{F}$. Here, $\bigcup G$ is the union of all sets in $\mathcal{G}$. 
+\end{proposition}
+
+\begin{proof}
+\leanok
+We induct on the size of $\mc{G}$, with the base case of $|\mc{G}| = 0$ being vacuous, since $\mc{G}$ is non-empty. Now assume the result holds for all such $\mc{G}$ of size $|\mc{G}| = n$, and take such a $\mc{G}$ of size $|\mc{G}| = n+1$. 
+
+\vs
+
+We split into cases based on whether $G$ is a singleton.
+\end{proof}
+
+
 
 
 

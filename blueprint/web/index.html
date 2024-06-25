@@ -56,25 +56,6 @@
     
     
     
-    <button class="modal lean">L∃∀N</button>
-        <div class="modal-container">
-      <div class="modal-content">
-        <header>
-          <h1>Lean declarations</h1>
-          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
-</button>
-        </header>
-        
-        <ul class="uses">
-          
-          <li><a href="https://zachman99323.github.io/trivial_func_lb/docs/find/#doc/small_lemma_about_sets" class="lean_decl">small_lemma_about_sets</a></li>
-          
-        </ul>
-    
-      </div>
-    </div>
-
-    
         </div>
   </div>
   <div class="lemma_thmcontent">
@@ -93,8 +74,72 @@
   <div class="proof_content">
   
 <p>We split into cases depending on whether \(x \in C\). </p>
+
 <p>Case 1: \(x \not\in C\). Since \(C\) is non-empty, there is some \(y \in C\). We claim such a \(y\) satisfies \(y \ne x\) and \(y \in C\). The latter is by definition. For the former, if \(y = x\), then that \(y \in C\) implies \(x \in C\), contradicting \(x \not\in C\). </p>
+
 <p>Case 2: \(x \in C\). We show that, assuming the conclusion is false, it holds that \(C = \{ x\} \). To show \(\{ x\}  \subseteq C\), it suffices to show \(x \in C\), but we know this already. To show \(C \subseteq \{ x\} \), we take a \(y \in C\), and by assumption, since \(y \in C\), we know \(y = x\) and hence \(y \in \{ x\} \). </p>
+
+  </div>
+</div>
+
+<div class="proposition_thmwrapper theorem-style-plain" id="UGinF">
+  <div class="proposition_thmheading">
+    <span class="proposition_thmcaption">
+    Proposition
+    </span>
+    <span class="proposition_thmlabel">0.2</span>
+    <div class="thm_header_extras">
+
+    
+    ✓
+        </div>
+    <div class="thm_header_hidden_extras">
+
+    <a class="icon proof" href="index.html#UGinF">#</a>
+    
+    <a class="icon proof" href="index.html#a0000000004"><svg  class="icon icon-cogs "><use xlink:href="symbol-defs.svg#icon-cogs"></use></svg>
+</a>
+    
+    
+    <button class="modal"><svg  class="icon icon-mindmap "><use xlink:href="symbol-defs.svg#icon-mindmap"></use></svg>
+</button>
+        <div class="modal-container">
+      <div class="modal-content">
+        <header>
+          <h1>Uses</h1>
+          <button class="closebtn"><svg  class="icon icon-cross "><use xlink:href="symbol-defs.svg#icon-cross"></use></svg>
+</button>
+        </header>
+        
+        <ul class="uses">
+          
+          <li><a href="index.html#small_lemma">Lemma 0.1</a></li>
+          
+        </ul>
+    
+      </div>
+    </div>
+
+    
+    
+        </div>
+  </div>
+  <div class="proposition_thmcontent">
+  <p>  Let \(\mathcal{F}\) be a finite union-closed family of sets and \(\mathcal{G} \subseteq \mathcal{F}\) a non-empty sub-family. Then , \(\bigcup \mathcal{G} \in \mathcal{F}\). Here, \(\bigcup G\) is the union of all sets in \(\mathcal{G}\). </p>
+
+  </div>
+</div>
+<div class="proof_wrapper" id="a0000000004">
+  <div class="proof_heading">
+    <span class="proof_caption">
+    Proof
+    </span>
+    <span class="expand-proof">▶</span>
+  </div>
+  <div class="proof_content">
+  <p>We induct on the size of \(\mathcal{G}\), with the base case of \(|\mathcal{G}| = 0\) being vacuous, since \(\mathcal{G}\) is non-empty. Now assume the result holds for all such \(\mathcal{G}\) of size \(|\mathcal{G}| = n\), and take such a \(\mathcal{G}\) of size \(|\mathcal{G}| = n+1\). </p>
+
+<p>We split into cases based on whether \(G\) is a singleton. </p>
 
   </div>
 </div>

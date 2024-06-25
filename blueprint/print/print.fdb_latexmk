@@ -1,7 +1,7 @@
 # Fdb version 4
-["pdflatex"] 1719329222.2036 "print.tex" "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.pdf" "print" 1719329222.97491 0
-  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.aux" 1719329222.89172 306 5d35be25679666b326875a88f10dae13 "pdflatex"
-  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.out" 1719329222.8922 65 e58656315035b80b770f5cc963cebd18 "pdflatex"
+["pdflatex"] 1719330430.42306 "print.tex" "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.pdf" "print" 1719330431.1042 0
+  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.aux" 1719330431.02453 350 20ddfbc856ca68f0799a70cc24080e47 "pdflatex"
+  "/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print.out" 1719330431.02487 65 e58656315035b80b770f5cc963cebd18 "pdflatex"
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/adobe/zapfding/pzdr.tfm" 1136768653 1528 f853c4d1b4e0550255e02831fdc8496f ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam10.tfm" 1246382020 916 f87d7c45f9c908e672703b83b72241a3 ""
   "/usr/local/texlive/2024basic/texmf-dist/fonts/tfm/public/amsfonts/symbols/msam5.tfm" 1246382020 924 9904cf1d39e9767e7a3622f2a125a565 ""
@@ -83,7 +83,7 @@
   "/usr/local/texlive/2024basic/texmf-dist/web2c/texmf.cnf" 1708706663 41649 5d6ae549fbbcb850a863f69aa41f3d10 ""
   "/usr/local/texlive/2024basic/texmf-var/web2c/xetex/xelatex.fmt" 1719191501 10028129 e103683e067e6ac72009decd56f0db91 ""
   "/usr/local/texlive/2024basic/texmf.cnf" 1710011638 628 8b896f7d9d41b43f4346b9091e52171f ""
-  "content.tex" 1719329210.22466 1741 dfd1b3c9dc85cc5e4b743066b927cc89 ""
+  "content.tex" 1719330420.81665 2341 728ad93e97a9fc3edbd2d254d0b005e8 ""
   "macros/common.tex" 1719328562.09795 2228 cbea12bcb12518e52c9fc54dd7fe81bd ""
   "macros/print.tex" 1719328452.93313 1428 9d66f522efeba2f0b0389db40230a368 ""
   "print.tex" 1719328298.82237 1134 a0fc7409fd1bfd0f9387111cf55e5284 ""

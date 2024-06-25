@@ -1,4 +1,4 @@
-This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.23)  25 JUN 2024 11:27
+This is XeTeX, Version 3.141592653-2.6-0.999996 (TeX Live 2024) (preloaded format=xelatex 2024.6.23)  25 JUN 2024 11:47
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -711,17 +711,17 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ]
 (./content.tex
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 10.00107pt on input line 16.
+(Font)              scaled to size 10.00107pt on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 7.00075pt on input line 16.
+(Font)              scaled to size 7.00075pt on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(2)/m/n' will be
-(Font)              scaled to size 5.00053pt on input line 16.
+(Font)              scaled to size 5.00053pt on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 9.99893pt on input line 16.
+(Font)              scaled to size 9.99893pt on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 6.99925pt on input line 16.
+(Font)              scaled to size 6.99925pt on input line 14.
 LaTeX Font Info:    Font shape `TU/latinmodern-math.otf(3)/m/n' will be
-(Font)              scaled to size 4.99947pt on input line 16.
+(Font)              scaled to size 4.99947pt on input line 14.
 ) [1]
 (/Users/zacharychase/Documents/lean-stuff/trivial_func_lb/blueprint/print/print
 .aux)
@@ -733,10 +733,10 @@ Package rerunfilecheck Info: File `print.out' has not changed.
 (rerunfilecheck)             Checksum: E58656315035B80B770F5CC963CEBD18;65.
  ) 
 Here is how much of TeX's memory you used:
- 16885 strings out of 476290
- 311011 string characters out of 5789828
- 1923839 words of memory out of 5000000
- 38750 multiletter control sequences out of 15000+600000
+ 16888 strings out of 476290
+ 311084 string characters out of 5789828
+ 1926839 words of memory out of 5000000
+ 38753 multiletter control sequences out of 15000+600000
  563400 words of font info for 80 fonts, out of 8000000 for 9000
  319 hyphenation exceptions out of 8191
  90i,6n,114p,542b,353s stack positions out of 10000i,1000n,20000p,200000b,200000s
