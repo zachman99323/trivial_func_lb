@@ -6,7 +6,7 @@
 % the current file can be a simple sequence of \input. Otherwise It
 % can start with a \section or \chapter for instance.
 
-\section{Main}
+\chapter{Main}
 
 \begin{lemma} \label{small_lemma}
 \leanok
@@ -38,12 +38,12 @@ and hence $y \in \{x\}$.
 
 \begin{proposition} \label{UGinF}
 \leanok
-\uses{small_lemma}
 Let $\mc{F}$ be a finite union-closed family of sets and $\mc{G} \sub \mc{F}$ a non-empty sub-family. Then , $\bigcup \mc{G} \in \mc{F}$. Here, $\bigcup G$ is the union of all sets in $\mathcal{G}$. 
 \end{proposition}
 
 \begin{proof}
 \leanok
+\uses{small_lemma}
 We induct on the size of $\mc{G}$, with the base case of $|\mc{G}| = 0$ being vacuous, since $\mc{G}$ is non-empty. Now assume the result holds for all such $\mc{G}$ of size $|\mc{G}| = n$, and take such a $\mc{G}$ of size $|\mc{G}| = n+1$. 
 
 \vs

@@ -72,12 +72,12 @@
       <span class="lemma_thmcaption">
       Lemma
       </span>
-      <span class="lemma_thmlabel">0.1</span></div>
+      <span class="lemma_thmlabel">1.1</span></div>
     <div class="thm_thmcontent">
 <p>Let \(Y\) be a set and \(x \in Y\) some point in \(Y\). Let \(C \subseteq Y\) be a non-empty set satisfying \(C \ne {x}\). Then there is some \(y \in Y\) such that \(y \ne x\) and \(y \in C\). </p>
 </div>
 
-    <a class="latex_link" href="index.html#small_lemma">LaTeX</a>
+    <a class="latex_link" href="sect0001.html#small_lemma">LaTeX</a>
     
     
   
@@ -103,11 +103,11 @@
       <span class="proposition_thmcaption">
       Proposition
       </span>
-      <span class="proposition_thmlabel">0.2</span></div>
-    <div class="thm_thmcontent"><p>  Let \(\mathcal{F}\) be a finite union-closed family of sets and \(\mathcal{G} \subseteq \mathcal{F}\) a non-empty sub-family. Then , \(\bigcup \mathcal{G} \in \mathcal{F}\). Here, \(\bigcup G\) is the union of all sets in \(\mathcal{G}\). </p>
+      <span class="proposition_thmlabel">1.2</span></div>
+    <div class="thm_thmcontent"><p> Let \(\mathcal{F}\) be a finite union-closed family of sets and \(\mathcal{G} \subseteq \mathcal{F}\) a non-empty sub-family. Then , \(\bigcup \mathcal{G} \in \mathcal{F}\). Here, \(\bigcup G\) is the union of all sets in \(\mathcal{G}\). </p>
 </div>
 
-    <a class="latex_link" href="index.html#UGinF">LaTeX</a>
+    <a class="latex_link" href="sect0001.html#UGinF">LaTeX</a>
     
     
   
@@ -138,7 +138,7 @@ graphContainer.graphviz({useWorker: true})
     .width(width)
     .height(height)
     .fit(true)
-    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	small_lemma	[color=green,		fillcolor="#1CAC78",		label=small_lemma,		shape=ellipse,		style=filled];	UGinF	[color=green,		fillcolor="#1CAC78",		label=UGinF,		shape=ellipse,		style=filled];	small_lemma -> UGinF	[style=dashed];}`)
+    .renderDot(`strict digraph "" {	graph [bgcolor=transparent];	node [label="\N",		penwidth=1.8	];	edge [arrowhead=vee];	small_lemma	[color=green,		fillcolor="#1CAC78",		label=small_lemma,		shape=ellipse,		style=filled];	UGinF	[color=green,		fillcolor="#1CAC78",		label=UGinF,		shape=ellipse,		style=filled];	small_lemma -> UGinF;}`)
     .on("end", interactive);
 
 latexLabelEscaper = function(label) {
